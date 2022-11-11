@@ -46,6 +46,7 @@ def my_data(x_min, x_max, n, train=True):
     return x, y
 
 def plot_predictions(x_train, y_train, x_test, y_test, y_pred, n_stds=4, kk=0):
+    print(f'y_pred={y_pred}')
     #print(f'y_test:{y_test}')
     #print(f'y_pred:{y_pred}')
 
